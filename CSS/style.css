@@ -218,6 +218,13 @@ body {
   color: white;
 }
 
+.info-de-contacto {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+}
+
 /* Contacto*/
 .contacto fieldset {
   border: 1px solid gray;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Contacto</title>
+  </head>
+  <body></body>
+</html>
+<body class="body-contacto">
+  <header>
+    <nav class="nav-other">
+      <div class="navbar-other">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos </a>
+        <a href="contacto.html">Contacto</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+      </div>
+    </nav>
+  </header>
+  <div class="contacto-titulo">   
+    <h4>Contáctanos</h4>
+  </div>
+  <div class="fondo">
+    
+    <form class="contacto">
+      <fieldset class="contacto-fieldset">
+        
+        <div class="contacto">
+          <label for="Cliente"> Nombre y Apellido </label>
+          
+          <input type="text" id="nombre" name="Cliente" />
+        </div>
+
+        <div class="contacto">
+        <label for="email"> Correo electrónico</label>
+        
+        <input type="email" id="correo electronico" name="email" />
+      </div>
+      
+      <div class="contacto">
+        <label for="numero de contacto"> Teléfono</label>
+        
+        <input type="number" id="numero de contacto" name="telefono" />
+      </div>
+      
+      <div class="contacto-su">
+        <label for="Suscribirse"> Suscríbase a nuestro newsletter</label>
+        <input
+        type="checkbox"
+        id="Suscribirse"
+        name="newsletter"
+        value="yes"
+        />
+      </div>
+
+      <div class="contacto">
+        <label for="Pais de residencia"> País de Residencia </label>
+        <select name="Pais de residencia" id="pais de residencia">
+          <option value="Arg">Argentina</option>
+          <option value="Bra">Brasil</option>
+          <option value="Chl">Chile</option>
+          <option value="Uru">Uruguay</option>
+        </select>
+      </div>
+
+      
+      <div class="contacto-buttons">
+        <input type="submit" value="Enviar" class="send"/>
+        <input type="reset" value="Limpiar formulario" />
+      </div>
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>

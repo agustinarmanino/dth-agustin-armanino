@@ -57,7 +57,7 @@ body {
 .navcontainer {
   position: fixed;
   top: 0%;
-  background-color: #383e56;
+  background-color: #84a9ac;
   font-family: "Quicksand", sans-serif;
   color: #eeeeee;
   width: 100%;
@@ -72,7 +72,7 @@ body {
 }
 
 .nav a:hover {
-  background-color: #476072;
+  background-color: #84a9ac;
 }
 
 .nav a:visited {
@@ -117,7 +117,7 @@ body {
   width: 55%;
   width: 450px;
   height: 400px;
-  opacity: 0.75;
+  opacity: 0.98;
 }
 /* Animacion border imgage*/
 .briefdesc-us img:hover {
@@ -151,7 +151,7 @@ body {
 .footer {
   display: flex;
   justify-content: unset;
-  background-color: #383e56;
+  background-color: #84a9ac;
 }
 
 .footer a {

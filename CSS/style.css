@@ -47,37 +47,15 @@ body {
 }
 
 /* Header & Nav */
+
 .header {
   display: flex;
   flex-direction: column;
   justify-content: unset;
   align-items: center;
 }
-
-.navcontainer {
-  position: fixed;
-  top: 0%;
+.bg-nav {
   background-color: #84a9ac;
-  font-family: "Quicksand", sans-serif;
-  color: #eeeeee;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.nav a {
-  text-decoration: none;
-  padding: 0 50px;
-  font-size: 20px;
-}
-
-.nav a:hover {
-  background-color: #84a9ac;
-}
-
-.nav a:visited {
-  text-decoration: none;
-  color: #eeeeee;
 }
 
 .header-title h1 {
